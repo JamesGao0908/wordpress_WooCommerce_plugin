@@ -1,0 +1,82 @@
+.bar-btn_a
+{
+	background-image: linear-gradient(90deg,#ffc500,#ff9402);
+	width: 100%;
+	height: 14.6vw;
+    border-radius: 10% 0 0 10% / 50%;
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 14.6vw;
+    font-size: 3.73333vw;   
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+}
+.bar-btn_b
+{
+	background-image: linear-gradient(90deg,#ff7a00,#fe560a);
+	text-align: center;
+	width: 100%;
+	height: 14.6vw;
+    border-radius: 0  10% 10% 0 / 50%;
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 14.6vw;
+    font-size: 3.73333vw;   
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+}
+.bar-btn_c
+{    
+    background-image: linear-gradient(90deg,#ff7a00,#fe560a);
+    border-radius: 15% 15% 15% 15% / 50%;
+    height: 14.6vw;
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 14.6vw;
+    font-size: 3.73333vw;   
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+
+
+}
+.storefront-handheld-footer-bar{
+	height: 15vw;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.storefront-handheld-footer-bar ul li.home > a::before {
+    content: "\f015";
+    line-height: 55px;
+}
+.storefront-handheld-footer-bar ul li.my-account > a::before {
+    content: "\f007";
+    line-height: 55px;
+}
+.storefront-handheld-footer-bar ul li.search > a::before {
+    content: "\f002";
+    line-height: 55px;
+}
+.storefront-handheld-footer-bar ul li.cart > a::before {
+    content: "\f291";
+    line-height: 55px;
+}
+
+/*隐藏‘去结算按钮’*/
+.wc-proceed-to-checkout
+{
+    visibility: hidden;
+}
