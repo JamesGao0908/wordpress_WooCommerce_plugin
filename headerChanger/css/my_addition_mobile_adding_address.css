@@ -1,0 +1,100 @@
+.my_add_on_addition_address_ul
+{
+	margin-top:10px;
+	list-style: none;
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-top:30px;
+}
+
+.my_add_on_addition_address_ul li
+{
+	margin-bottom: 15px;
+	margin-top: 15px; 
+	background-color: white;
+	padding: 5px;
+}
+
+.my_add_on_addition_address_ul li:nth-of-type(odd)
+{
+	
+}  
+.my_add_on_addition_address_ul li:nth-of-type(even)
+{
+
+}
+
+
+
+.my_add_on_addition_address
+{
+	text-decoration:none; 
+	width: 90%;
+    display: inline-block;
+}
+
+i.fa.fa-trash
+{
+	position: absolute;
+    line-height: 3;
+    right: 20px;
+}
+
+.hentry .entry-content a:not(.button)
+{
+	text-decoration:none; 
+	
+}
+
+header
+{
+	display: none;
+}
+
+.storefront-breadcrumb
+{
+	display: none;
+}
+
+.woocommerce-form-coupon-toggle
+{
+	display: none;
+}
+
+.widget-area
+{
+	display: none;
+}
+
+.storefront-handheld-footer-bar ul li > a {
+	text-indent: 0px;
+	background-color: #ff5500;
+	color: white;
+}
+
+.site-info
+{
+	display: none;
+	background-color:  #EEEEEE;
+}
+
+.site-footer
+{
+	background-color:  #EEEEEE;
+}
+
+body
+{
+	background-color: #EEEEEE;
+	height: 100%;
+	width: 100%;
+}
+
+.col-full
+{
+	margin-left: 0.3em;
+    margin-right: 0.3em;
+}

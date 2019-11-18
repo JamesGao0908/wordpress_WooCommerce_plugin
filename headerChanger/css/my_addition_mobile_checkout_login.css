@@ -1,0 +1,159 @@
+form.woocommerce-checkout
+{
+	border-radius: 12px;
+	background-color: white;	
+}
+
+#order_review_heading
+{
+	margin-left: 20px;
+    margin-top: 10px;
+}
+table.woocommerce-checkout-review-order-table thead
+{
+	display: none;
+}
+table.woocommerce-checkout-review-order-table tbody
+{
+	display: none;
+}
+
+table.woocommerce-checkout-review-order-table
+{
+	margin: 0px;
+}
+
+.woocommerce-form-coupon
+{
+	display: none;
+}
+.woocommerce-billing-fields__field-wrapper
+{
+	display: none;
+}
+.woocommerce-billing-fields
+{
+	display: none;
+}
+/*其他信息--留信息*/
+.woocommerce-additional-fields
+{
+	display: none;
+}
+.place-order
+{
+	display: none;
+}
+
+body
+{
+	background-color: #F2F2F2;
+}
+#colophon
+{
+	background-color: #F2F2F2;
+}
+header
+{
+	display: none;
+}
+
+.site-info
+{
+	display: none;
+}
+
+.storefront-breadcrumb
+{
+	display: none;
+}
+
+.woocommerce-form-coupon-toggle
+{
+	display: none;
+}
+
+.woocommerce-mini-cart__buttons 
+{
+	display: none;
+}
+.remove_from_cart_button
+{
+	display: none;
+}
+
+.remove
+{
+	display: none;
+}
+
+a.remove_from_cart_button
+{
+	display: none;
+}
+
+.woocommerce-mini-cart__total
+{
+	display: none;
+}
+
+
+.product_list_widget li > a:first-child 
+{
+	display: none;
+}
+
+.my_addition_special_class
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.my_addition_special_class_1
+{
+	margin-top: 1.41575em;
+	float: left;
+  	width: 10%;
+  	padding: 10px;
+}
+.my_addition_special_class_2
+{
+	float: left;
+  	width: 80%;
+  	padding: 1px;
+  	font-size: 14px;
+  	margin-top: 1.41575em;  		
+}
+.my_addition_special_class_2_a
+{
+	 text-decoration:none;
+}
+.my_addition_special_class_3
+{
+	margin-top: 1.41575em;
+	float: left;
+  	width: 10%;
+  	padding: 10px;
+}
+
+.my_addition_mini_cart_items
+{
+	background-color: white;
+	border-radius: 12px;
+}
+.woocommerce-mini-cart
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.storefront-handheld-footer-bar ul li > a
+{
+	text-indent: 0px;
+}
+.woocommerce-checkout-review-my-part'
+{
+	text-indent: 0px;
+}

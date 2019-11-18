@@ -1,0 +1,110 @@
+/*隐藏 合计总费用*/
+.order-total
+{
+    visibility: hidden;
+    display: none;
+}
+
+.woocommerce-products-header__title 
+{
+    display: none;
+}
+.woocommerce-result-count
+{
+    display: none;
+}
+
+.site-content
+{
+    background-color: #f5f5f5;
+}
+
+.site-main ul li
+{
+    background-color: white;
+}
+.site-content .col-full
+{
+    margin-left: 0.41575em;
+    margin-right: 0.41575em;
+}
+form 
+{
+  margin: 1.618em; 
+}
+.woocommerce-ordering
+{
+    display: none;
+}
+.wc-block-grid__products .wc-block-grid__product img 
+{
+    display: block;
+    margin: 0 auto 0em;
+}
+.storefront-sorting 
+{
+    margin-bottom: 0.617924em;
+}
+.woocommerce-Price-amount 
+{
+    color: red;
+}
+
+
+/* 一列两物品的格式调整 */
+ul.products li.product {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    height: 271px;
+}
+
+ul.products li.product:nth-of-type( 2n ) {
+    margin-right: 0;
+}
+
+/*@media ( min-width: 768px ) {
+    ul.products li.product:nth-of-type( 2n ) {
+        margin-right: 5.8823529412%;
+    }
+}*/
+span.price
+{
+    position: absolute;
+    bottom: 0;
+    left : 40%;
+}
+h2.woocommerce-loop-product__title
+{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+ul li 
+{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -o-box;
+    -o-box-align: center;
+    -o-box-pack: center;
+    display: -ms-box;
+    -ms-box-align: center;
+    -ms-box-pack: center;
+    display: box;
+    box-align: center;
+    box-pack: center;
+}
+
+/* 隐藏is_shop&&手机版的widget购物车 */
+@media only screen and (max-width:767px)
+{
+    #secondary 
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,336 @@
+form
+{
+	display: none;
+}
+
+/*.woocommerce-billing-fields, .col-1*/
+{
+	display: none;
+}
+/*.woocommerce-additional-fields*/
+{
+	display: none;
+}
+
+
+.dropbtn {
+	background-color: white;
+	color: black;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 3px;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	width: 153px;
+
+	vertical-align: middle;
+    display: inline-table;
+    border-collapse: separate;
+    font-size: 1;
+    line-height: 1;
+    width: 200px;
+    border-spacing: 0;
+    transition: all .1s linear;
+    border: 1px solid #c4c6cf;
+    background-color: #fff;
+    border-radius: 3px;
+
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    min-width: 100px;
+    outline: 0;
+    color: #333;
+
+    width:98px;
+    height: 26px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/*返回购物车*/
+.goback_button
+{
+	color: #36c;
+	text-decoration: none;
+	/*margin-right: 50px;*/
+    margin: 5px;	
+	line-height: 40px;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-align: right;
+	margin-top: -1px;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	}
+/*提交订单*/
+.final_submit_button_my_addition
+{
+	display: inline-block;
+	width: 182px;
+	height: 39px;
+	position: relative;
+	vertical-align: middle;
+	line-height: 39px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: rgb(255, 80, 0);
+	/*background: #dd2727;*/
+	color: #fff;
+	text-decoration: none;
+	box-sizing: border-box;
+	float: right;
+}
+
+/*寄送至*/
+.selected-description
+{
+	display: inline;
+    color: #f40;
+    line-height: 26px;
+    margin-left: -80px;
+    margin-right: 18px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.woocommerce-checkout-review-my-part
+{
+	color: rgb(255, 80, 0);
+	font: 700 26px tahoma;
+	text-align: right;
+	margin-top: 15px
+}
+
+/*隐藏优惠券*/
+.woocommerce-info
+{
+	display: none;
+}
+/*隐藏开头标题*/
+.entry-header
+{
+	display: none;
+}
+.storefront-breadcrumb
+{
+	margin-bottom: 0px;
+	display: none;
+}
+.storefront-primary-navigation
+{
+	display: none;
+}
+.site-content
+{
+	margin-top: 20px;
+}
+/*确认收货地址总div*/
+.header-title
+{
+	margin-bottom: 0px;
+	line-height: 25px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	margin-block-start: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	box-sizing: border-box；
+	font-family: verdana,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+/*确认收货地址*/
+.header-wrapper
+{
+	border-bottom: 2px solid #f1f1f1;
+	position: relative;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	display: block;
+	font-family: verdana,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	color: #333;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+
+}
+
+/*确认订单信息*/
+.header_title
+{
+	margin-top: 50px;
+	line-height: 25px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+/*管理收货地址*/
+.header-operation
+{
+	position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    color: #36c;
+    box-sizing: border-box;
+    line-height: 25px;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    text-decoration: none;
+}
+
+.hentry .entry-content a:not(.button) 
+{
+    text-decoration: none;
+}
+
+/*input 地址前面的原点*/
+.next-radio-input
+{
+
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	margin: 5px;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding: 0;
+	font-size: 100%;
+	font-family: verdana,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+	line-height: 1.5;
+	overflow: visible;
+	-webkit-writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+}
+
+/*每个收货地址*/
+.addr-item-wrapper
+{
+	position: relative;
+	padding-left: 92px;
+	border: 1px solid #fff;
+	line-height: 30px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	display: block;
+	font-family: verdana,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif；
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+/*使用新地址*/
+.next-medium
+{
+	margin-bottom: 50px;
+	margin-top:10px;
+	margin-left: 118px;
+	color: #333;
+	border-style: solid;
+	background-color: #fff;
+	border-color: #c4c6cf;
+	border-radius: 3px;
+	padding: 0 12px;
+	height: 28px;
+	line-height: 26px;
+	font-size: 12px;
+	border-width: 1px;
+	position: relative;
+	display: inline-block;
+	box-shadow: none;
+	text-decoration: none;
+	text-align: center;
+	text-transform: none;
+	white-space: nowrap;
+	vertical-align: middle;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+table:not( .has-background ) th 
+{
+	background-color: white;
+}
+table thead  th
+{
+	width: 255px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-bottom: 3px solid #b2d1ff;
+	font-size: 12px;
+	margin-left: 1px;
+	vertical-align: bottom;
+	color: #6c6c6c;
+	background-color: white;
+}
+.box__wrapper
+{
+	width: 100%;
+    margin-top: 15px;			
+	display: inline-block;
+	border: 1px solid #ff0036;
+	text-align: right;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.box__shadow
+{
+	border: 3px solid #fff0e8;
+	min-width: 230px;
+	padding: 10px 5px 10px 20px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+.deliver_box
+{
+	float: right;
+	position: relative;
+}

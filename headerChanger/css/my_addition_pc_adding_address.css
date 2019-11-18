@@ -1,0 +1,44 @@
+.my_address_control_table
+{
+
+}
+
+.my_address_control_table thead tr th
+{
+	padding: 12px 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-size: 12px;
+	line-height: 16px;
+	font-family: 'arial, sans-serifbody tahoma, arial, "Hiragino Sans GB", 宋体, sans-serifbody, button, input, select, textarea tahoma,arial,\5b8b\4f53,sans-serifhtml, button, input, select, textarea';
+	box-sizing: border-box;
+	text-align: left;
+    font-weight: 400;
+    color: #333;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgb(235, 236, 240);
+}
+
+.my_address_control_table_tbody tr, td
+{
+	background-color: white;
+	color: #333;
+	font-size: 12px;
+	overflow: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 16px;
+	font-family: 'arial, sans-serifbody tahoma, arial, "Hiragino Sans GB", 宋体, sans-serifbody, button, input, select, textarea tahoma,arial,\5b8b\4f53,sans-serifhtml, button, input, select, textarea';
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	box-sizing: border-box;
+}
+table:not( .has-background ) tbody td 
+{
+    background-color: white;
+}
+table:not( .has-background ) tbody tr:nth-child(2n) td, fieldset, fieldset legend 
+{
+    background-color: white;
+}
